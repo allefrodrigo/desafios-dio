@@ -20,6 +20,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: node server.js &
+    - run: cd javascript/node-js && node server.js &
     - run: sleep 5 # Dê tempo para o servidor iniciar
     - run: curl -v http://localhost:3000 # Teste a rota
