@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
+    - run: cd javascript/node-js && npm install
     - run: cd javascript/node-js && npm start &
     - run: sleep 15 # Dê tempo para o servidor iniciar
     - run: curl -v http://localhost:3000 # Teste a rota
