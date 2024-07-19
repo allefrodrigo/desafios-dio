@@ -1,5 +1,5 @@
 extends Node2D
 
-func deal_damage(): 
+func x(): 
 	print("Deal damage")
 	pass

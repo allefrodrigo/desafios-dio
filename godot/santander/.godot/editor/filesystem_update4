@@ -1,4 +1,9 @@
 res://test_scenes/test_battle.tscn
 res://misc/ritual.tscn
 res://misc/ritual.gd
+res://player/player.tscn
+res://player/player.gd
+res://enemies/pawn.tscn
+res://test_scenes/test_mob_spawning.tscn
+res://systems/mob_spawner.tscn
 res://test_scenes/Ritual.gd

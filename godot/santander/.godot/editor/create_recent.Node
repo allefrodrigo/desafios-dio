@@ -1,7 +1,7 @@
+CollisionShape2D
+Area2D
 Node2D
 AnimationPlayer
 PathFollow2D
 Path2D
-CollisionShape2D
-Area2D
 AnimatedSprite2D

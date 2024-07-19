@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721337303
+::res://::1721345173
 game_maneger.gd::GDScript::-1::1718903400::0::1::::<>Node<>::
 icon.png::CompressedTexture2D::8693435998108510543::1718821853::1718998414::1::::<><>::
 icon.svg::CompressedTexture2D::5228047629020286460::1718803871::1718998414::1::::<><>::
 README.md::TextFile::-1::1718821853::0::1::::<><>::
 ::res://addons/::1721337303
-::res://addons/PNG (Transparent)/::1721337282
+::res://addons/PNG (Transparent)/::1721337304
 circle_01.png::CompressedTexture2D::1954155137793251864::1721337281::1721337304::1::::<><>::
 circle_02.png::CompressedTexture2D::5037062990290793656::1721337281::1721337304::1::::<><>::
 circle_03.png::CompressedTexture2D::7916302005096480317::1721337281::1721337304::1::::<><>::
@@ -86,7 +86,7 @@ window_01.png::CompressedTexture2D::7497620940001126577::1721337281::1721337304:
 window_02.png::CompressedTexture2D::3333241150094953776::1721337281::1721337304::1::::<><>::
 window_03.png::CompressedTexture2D::6195794468995966903::1721337281::1721337304::1::::<><>::
 window_04.png::CompressedTexture2D::6637242894864047831::1721337281::1721337304::1::::<><>::
-::res://addons/PNG (Transparent)/Rotated/::1721337282
+::res://addons/PNG (Transparent)/Rotated/::1721337304
 flame_05_rotated.png::CompressedTexture2D::1713314781655393249::1721337281::1721337304::1::::<><>::
 flame_06_rotated.png::CompressedTexture2D::2671063333385163524::1721337281::1721337304::1::::<><>::
 muzzle_01_rotated.png::CompressedTexture2D::899070091002321294::1721337281::1721337304::1::::<><>::
@@ -375,10 +375,12 @@ pawn.tscn::PackedScene::5318103162125300660::1719956629::0::1::::<><>::res://ene
 sheep.tscn::PackedScene::5622772215522477294::1718997126::0::1::::<><>::res://enemies/enemy.gd<>uid://bqtuhj2oswgt0::::res://misc/skull.tscn<>uid://caqjad6imxcfx::::res://addons/Tiny Swords/Resources/Sheep/HappySheep_Bouncing.png<>res://enemies/behaviors/follow_player.gd
 ::res://enemies/behaviors/::1719956482
 follow_player.gd::GDScript::-1::1719956482::0::1::::<>Node<>::
-::res://misc/::1719956629
+::res://misc/::1721339633
 big_skull.tscn::PackedScene::7333936911410082001::1719956629::0::1::::<><>::uid://bqtuhj2oswgt0::::res://misc/skull.tscn
 life_regenerator.gd::GDScript::-1::1719956482::0::1::::<>Node2D<>::
 meat.tscn::PackedScene::6063908352683332527::1719956629::0::1::::<><>::uid://m05r8n213xr3::::res://addons/Tiny Swords/Resources/Resources/M_Spawn.png<>res://misc/life_regenerator.gd
+ritual.gd::GDScript::-1::1721339181::0::1::::<>Node2D<>::
+ritual.tscn::PackedScene::6959416245700644377::1721339633::0::1::::<><>::uid://dk1ylqcwg4buj::::res://addons/PNG (Transparent)/circle_03.png<>res://misc/ritual.gd<>uid://cfay870whr8mi::::res://addons/PNG (Transparent)/light_03.png<>uid://dwru4rieh8s3p::::res://addons/PNG (Transparent)/magic_03.png
 skull.tscn::PackedScene::3549892714722311303::1719956629::0::1::::<><>::uid://bq1cb7fe88o3g::::res://addons/Tiny Swords/Factions/Knights/Troops/Dead/Dead.png
 ::res://player/::1719956629
 player.gd::GDScript::-1::1719413753::0::1::::Player<>CharacterBody2D<>::
@@ -386,9 +388,10 @@ player.tscn::PackedScene::8390831670459553122::1719956629::0::1::::<><>::res://p
 ::res://systems/::1721337269
 mob_spawner.gd::GDScript::-1::1719956617::0::1::::<>Node2D<>::
 mob_spawner.tscn::PackedScene::8648024204949223377::1719956629::0::1::::<><>::res://systems/mob_spawner.gd<>uid://mplg7jvoua0g::::res://enemies/goblin.tscn<>uid://ch1em8x5d7gky::::res://enemies/pawn.tscn<>uid://cmdyib321r01o::::res://enemies/sheep.tscn
-::res://test_scenes/::1719956629
+::res://test_scenes/::1721341462
+Ritual.gd::GDScript::-1::1721339339::0::1::::<>Node2D<>::
 test_assets.tscn::PackedScene::4520654756671967815::1718997126::0::1::::<><>::uid://di7eq60eiv085::::res://addons/Tiny Swords/Terrain/Ground/Shadows.png<>uid://j21gw3m3rtdt::::res://addons/Tiny Swords/Terrain/Ground/Tilemap_Elevation.png<>uid://dkw3tjwgsiqxs::::res://addons/Tiny Swords/Terrain/Ground/Tilemap_Flat.png<>uid://d32jn3fv0ycvj::::res://addons/Tiny Swords/Terrain/Water/Water.png<>uid://ceccdkeftdbyb::::res://addons/Tiny Swords/Terrain/Water/Rocks/Rocks_01.png<>uid://1icup2kcbpcu::::res://addons/Tiny Swords/Terrain/Water/Rocks/Rocks_03.png
-test_battle.tscn::PackedScene::8783633817189507973::1719956629::0::1::::<><>::uid://drst1ic08dr7w::::res://player/player.tscn<>uid://ch1em8x5d7gky::::res://enemies/pawn.tscn<>uid://cmdyib321r01o::::res://enemies/sheep.tscn<>uid://mplg7jvoua0g::::res://enemies/goblin.tscn
+test_battle.tscn::PackedScene::8783633817189507973::1721341462::0::1::::<><>::uid://drst1ic08dr7w::::res://player/player.tscn<>uid://ch1em8x5d7gky::::res://enemies/pawn.tscn<>uid://cmdyib321r01o::::res://enemies/sheep.tscn<>uid://mplg7jvoua0g::::res://enemies/goblin.tscn<>uid://c6fgtlrpsf82x::::res://misc/ritual.tscn
 test_meat.tscn::PackedScene::6500200617262590236::1719956629::0::1::::<><>::uid://drst1ic08dr7w::::res://player/player.tscn<>uid://csnnxjolfc1tb::::res://misc/meat.tscn
 test_mob_spawning.tscn::PackedScene::9095453538586336937::1719956629::0::1::::<><>::uid://drst1ic08dr7w::::res://player/player.tscn<>uid://dvhfxvux3hymb::::res://systems/mob_spawner.tscn
 test_player.tscn::PackedScene::3869615366198932311::1718997126::0::1::::<><>::uid://drst1ic08dr7w::::res://player/player.tscn<>uid://ch1em8x5d7gky::::res://enemies/pawn.tscn
